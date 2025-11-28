@@ -1,0 +1,11 @@
+Journal - CS463 Portfolio Project - Fall '25 - Kyle Wilson
+
+----------------------------------------------------------
+
+11/28/25
+
+Today I began the portfolio project by starting to thinking about what kinds of files I would need for the website. I also spent some time deliberating on what the file structure for such a project would look like. I eventually figured out what the general structure would be and made some initial empty files to be filled in later.
+
+----------------------------------------------------------
+
+
