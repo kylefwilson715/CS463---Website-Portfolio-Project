@@ -30,15 +30,15 @@ html {
 }
 
 .nav-link:hover {
-    color: #007bff !important;
+    color: #00A651 !important;
 }
 
 .nav-link.active {
-    color: #007bff !important;
+    color: #00A651 !important;
 }
 
 .hero-section {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #004F71 0%, #00A651 100%);
     color: white;
     min-height: calc(100vh - 56px);
     display: flex;
@@ -93,7 +93,7 @@ html {
     display: block;
     width: 60px;
     height: 3px;
-    background: #007bff;
+    background: #00A651;
     margin: 20px auto 0;
 }
 
@@ -103,7 +103,7 @@ html {
 }
 
 .experience-item h3 {
-    color: #007bff;
+    color: #004F71;
     margin-bottom: 5px;
 }
 
@@ -122,7 +122,7 @@ html {
 .skills-section h2 {
     font-size: 1.8rem;
     margin-bottom: 20px;
-    color: #007bff;
+    color: #004F71;
 }
 
 .skills-section h4 {
@@ -145,7 +145,7 @@ html {
     content: "▹";
     position: absolute;
     left: 0;
-    color: #007bff;
+    color: #00A651;
 }
 
 .coursework-list {
@@ -157,7 +157,7 @@ html {
     padding: 10px;
     margin-bottom: 10px;
     background: #f8f9fa;
-    border-left: 3px solid #007bff;
+    border-left: 3px solid #00A651;
     padding-left: 20px;
 }
 
@@ -190,12 +190,12 @@ html {
 }
 
 .form-control:focus {
-    border-color: #667eea;
-    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+    border-color: #00A651;
+    box-shadow: 0 0 0 0.2rem rgba(0, 166, 81, 0.25);
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #004F71 0%, #00A651 100%);
     border: none;
     padding: 10px 30px;
     transition: transform 0.3s ease;
@@ -203,17 +203,17 @@ html {
 
 .btn-primary:hover {
     transform: scale(1.05);
-    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    background: linear-gradient(135deg, #00A651 0%, #FDB913 100%);
 }
 
 .btn-outline-primary {
-    border-color: #667eea;
-    color: #667eea;
+    border-color: #00A651;
+    color: #00A651;
 }
 
 .btn-outline-primary:hover {
-    background: #667eea;
-    border-color: #667eea;
+    background: #00A651;
+    border-color: #00A651;
     color: white;
 }
 
@@ -224,7 +224,7 @@ footer {
 }
 
 footer a {
-    color: #007bff;
+    color: #00A651;
     text-decoration: none;
 }
 
