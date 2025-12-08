@@ -1,11 +1,104 @@
-Journal - CS463 Portfolio Project - Fall '25 - Kyle Wilson
+Portfolio Website Journal
+Kyle Wilson  
+GitHub Repository: https://github.com/kylefwilson715/CS463---Website-Portfolio-Project  
+Deployed Site: https://kylefwilson715.github.io/CS463---Website-Portfolio-Project/
 
-----------------------------------------------------------
+---
 
-11/28/25
+Session 1: Getting Started
 
-Today I began the portfolio project by starting to thinking about what kinds of files I would need for the website. I also spent some time deliberating on what the file structure for such a project would look like. I eventually figured out what the general structure would be and made some initial empty files to be filled in later.
+Started by creating the GitHub repo and setting up the basic folder structure. I decided to organize everything into separate folders. one for HTML files, one for CSS, one for JavaScript, images, and other assets. Made sense to keep things organized from the start.
 
-----------------------------------------------------------
+Created all five HTML pages right away: home, about, experience, projects, and contact. Each one has the same basic Bootstrap navbar so navigation stays consistent across the whole site. I went with a multi-page design instead of a single-page site because it felt cleaner and easier to manage.
+
+Technologies
+Using HTML for the page structure, Bootstrap 5.3.0 for the responsive stuff, and custom CSS for my own styling 
+
+Problems I Ran Into
+At first I wasn't totally sure how to organize the files, but after thinking about it, putting everything in its own folder made the most sense. Also had to decide between doing a single-page vs multi-page site. Went with multi-page since it seemed more straightforward.
+
+---
+
+Session 2: Deploying to GitHub Pages
+
+What I Did
+Tried to get the site live on GitHub Pages. This is where things got interesting.
+When I went to my GitHub Pages URL, I just got a 404 error. The site wasn't showing up at all. After some troubleshooting, I figured out the issue. all my HTML files were sitting in a subfolder, but GitHub Pages needs the index.html file to be at the root level of the repository
+
+Had to move all the HTML files out of the html folder and put them directly in the main repository folder. Used terminal commands to move everything, then deleted the empty html folder. After that, I committed the changes and pushed to GitHub. Waited a couple minutes for GitHub Pages to rebuild, and the site was live.
+
+I Learned GitHub Pages is picky about file structure. 
+
+Resources I Used
+- GitHub Pages Documentation
+
+---
+
+Session 3: Added Accordion Feature
+
+What I Did
+This was the session where I added the Bootstrap accordion to the experience page. This is the component we DIDN'T learn in class, so i had to teach myself about the feature
+I chose to use an accordion for the Education section on my experience page. It's a clean way to show multiple schools without making the page super long. Users can click to expand whichever school they want to read about, and only one section opens at a time. Keeps everything compact and easy to scan.
+The accordion has a main container that wraps everything, then individual items for each school. Each item has a button you click and a content section that expands/collapses. Bootstrap handles all the collapse/expand animations automatically through data attributes 
+I made the first item (Portland State) start open by default, and the second one (Portland Community College) starts collapsed. When you click one, the other automatically closes. 
+
+*Had to look at the Bootstrap documentation to understand how all the data attributes work. Things like data-bs-toggle, data-bs-target, and data-bs-parent all have specific jobs. The parent attribute is what makes it so only one section opens at a time.
+
+Resources I Used
+- Bootstrap Accordion Documentation: https://getbootstrap.com/docs/5.3/components/accordion/
+
+---
+
+Session 4: messed with theme to make it more portland-like
+
+What I Did
+Changed the entire color scheme from the generic purple/blue colors to Portland-themed colors - green, blue, and yellow. Wanted something that felt more local and personal.
+
+The Colors I Used
+- Timbers green (#00A651) for the main accent color
+- Deep blue (#004F71) 
+- Yellow/gold (#FDB913) for highlights
+
+Updated pretty much everything in the CSS file. The navigation links now turn green when you hover or when they're active. The hero section on the homepage has a gradient from blue to green. All the buttons use the green/blue gradient too, and when you hover they shift to green/yellow.
+Also changed all the little accent pieces. the underlines on page titles, the bullets in the skills list, the borders on coursework items, etc. Just went through and swapped out every color to match the new theme.
+After I pushed the changes to GitHub, I went to check the live site but nothing changed. Still had the old colors. Turns out my browser was caching the old CSS file. Had to do a hard refresh  to force it to reload the new stylesheet. Then everything looked right.
+
+---
+
+Session 5: Filling In Content
+
+What I Did
+started going throuhg each page individually and adding in the content for my experience, projects, schooling, etc
+
+---
+
+Session 6: Final Cleanup and Testing
+
+What I Did
+Went through everything one more time to clean up and test. Removed the last of the unnecessary elements, tested all the links, checked how it looks on different screen sizes, made sure the accordion works properly.
+
+
+
+Main Technologies Used
+- HTML5 
+- CSS3 
+- JavaScript 
+- Bootstrap 
+
+
+Bootstrap Components: Navbar, grid system, buttons, forms, cards, accordion
+
+
+
+---
+
+Outside Resources
+
+1. Bootstrap Documentation (v5.3) at getbootstrap.com: Used this for learning about the accordion component and checking other Bootstrap features
+
+2. GitHub Pages Documentation: Used this to understand deployment and fix the 404 issue
+
+3. MDN Web Docs at developer.mozilla.org: General HTML/CSS reference when I needed to look something up
+
 
 
