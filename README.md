@@ -13,15 +13,6 @@ Live site: https://kylefwilson715.github.io/CS463---Website-Portfolio-Project/
 - JavaScript
 - Bootstrap 5.3.0
 
-## Features
-
-- Responsive multi-page design
-- Bootstrap accordion component for education history (advanced component not covered in class)
-- Custom Portland-themed color scheme (green, blue, yellow)
-- Contact form with validation
-- Project showcase with technology badges
-- Professional experience and skills sections
-
 ## File Structure
 
 ```
@@ -51,16 +42,6 @@ cd CS463---Website-Portfolio-Project
 
 3. Open `index.html` in your web browser
 
-
-## Deployment
-
-This site is deployed using GitHub Pages. To deploy your own version:
-
-1. Push your code to a GitHub repository
-2. Go to Settings > Pages
-3. Select the main branch as source
-4. Wait a few minutes for GitHub to build and deploy
-5. Access your site at `https://yourusername.github.io/repository-name/`
 
 ## Contact
 
